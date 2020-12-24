@@ -1,0 +1,48 @@
+
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.container .container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+}
+.content img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.content:nth-child(n+2){
+    margin-left: 20px;
+}
+.content .price-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.price-card{
+    background-color: inherit;
+    color: #fff;
+    position: absolute;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.pricelist{
+    margin-bottom: 50px;
+}
+.content{
+    padding: 20px;
+    border: #000 solid 1px;
+    transition: .5s;
+}
+.content:hover{
+    border-color:#fff;
+    cursor: pointer;
+}
